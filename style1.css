@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0px;
+    font-family:'Poppins',sans-serif;
+}
+.contact
+{
+    position:relative;
+    min-height:100vh;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-image:url("images/image3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.contact .content{
+    max-width:800px;
+    text-align:center;
+}
+.contact .content h1{
+    font-size:50px;
+    font-weight:700;
+    color:black;
+    margin:auto;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+.contact .content p{
+    font-weight:550;
+    color:black;
+    font-size:20px;
+    margin-top:30px;
+}
+
